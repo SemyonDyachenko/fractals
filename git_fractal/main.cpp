@@ -171,7 +171,7 @@ int main(int argc, char ** argv) {
 	glutInitDisplayMode(GLUT_SINGLE | GLUT_RGB);
 	glutInitWindowSize(1280, 720);
 	glutInitWindowPosition(100, 200);
-	glutCreateWindow("Our first GLUT application!");
+	glutCreateWindow("Fractals");
 	glutDisplayFunc(Display);
 	Initialize();
 	glutMainLoop();
